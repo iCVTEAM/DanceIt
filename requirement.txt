@@ -1,0 +1,12 @@
+audioread
+ffmpeg
+librosa
+matplotlib
+numpy
+opencv-python
+pillow
+scipy
+torch
+tqdm
+torchvision
+python_speech_features
