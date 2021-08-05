@@ -233,7 +233,8 @@ def createOptions():
     parser.add_argument("--audio_file", type=str, default=None)
     parser.add_argument("--len_seg", type=int, default=100)
     parser.add_argument("--num_node", type=int, default=23)
-
+    parser.add_argument("--dataform", type=str, default='tsinghua')
+    
     args = parser.parse_args()
     return args
 
