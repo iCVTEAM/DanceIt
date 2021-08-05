@@ -18,7 +18,7 @@ class Match_Net(nn.Module):
         super(Match_Net, self).__init__()
         self.flag = flag
         # load graph
-        self.graph = Graph()
+        self.graph = Graph(layout=args.dataform)
         A = torch.tensor(self.graph.A, dtype=torch.float32, requires_grad=True)
         self.register_buffer('A', A)
         self.args = args
