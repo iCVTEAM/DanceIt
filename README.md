@@ -1,3 +1,5 @@
+# Dance2Music
+
 #### Introduction
 
 This code provides an initial version for the implementation dance generation model
@@ -74,4 +76,3 @@ The code of the paper is freely available for non-commercial purposes. Permissio
 
 5. That all rights not expressly granted to you are reserved by the authors of the code.
 
-# Dance2Music
